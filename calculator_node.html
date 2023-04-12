@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Calculator</title>  
+</head>
+<body>
+    <div class="container">
+        <h1>Simple Calculator using Node.js</h1>
+        <form action="http://localhost:8080/login"  method="get">
+            <label for="num1">Number 1:</label>
+            <input type="number" name="num1" id="num1" required><br>
+            <label for="num2">Number 2:</label>
+            <input type="number" name="num2" id="num2" required><br>
+            <label for="operator">Operator:</label>
+            <select name="operator" id="operator" required>
+                <option value="">Choose an operator</option>
+                <option value="+">+</option>
+                <option value="-">-</option>
+                <option value="*">*</option>
+                <option value="/">/</option>
+            </select><br>
+            <input type="submit" value="Calculate">
+            <input type="reset" value="Reset">
+        </form>
+    </div>
+</body>
+</html>
+
+
+
